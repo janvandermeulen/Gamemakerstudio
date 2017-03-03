@@ -44,6 +44,7 @@
       <sprite>sprites\spr_enemy_slime</sprite>
     </sprites>
     <sprite>sprites\spr_sword</sprite>
+    <sprite>sprites\spr_axe</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -77,26 +78,40 @@
     <script>scripts\scr_load_game.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_lifeform_parent</object>
-    <object>objects\obj_player</object>
-    <object>objects\obj_enemy_slime</object>
-    <object>objects\obj_enemy_chinlin</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_view</object>
-    <object>objects\obj_damage</object>
-    <object>objects\obj_player_stats</object>
-    <object>objects\obj_dash_effect</object>
-    <object>objects\obj_expr</object>
-    <object>objects\obj_health</object>
-    <object>objects\obj_door</object>
-    <object>objects\obj_speaker</object>
-    <object>objects\obj_dialog</object>
-    <object>objects\obj_sign</object>
-    <object>objects\obj_input</object>
-    <object>objects\obj_pause_menu</object>
-    <object>objects\obj_projectile</object>
-    <object>objects\obj_weapon_animation_parent</object>
-    <object>objects\obj_sword</object>
+    <objects name="Speakers and Signs">
+      <object>objects\obj_speaker</object>
+      <object>objects\obj_dialog</object>
+      <object>objects\obj_sign_rm_1</object>
+      <object>objects\obj_sign_rm_2</object>
+    </objects>
+    <objects name="Weapons">
+      <object>objects\obj_weapon_animation</object>
+      <object>objects\obj_weapon_item</object>
+      <object>objects\obj_damage</object>
+      <object>objects\obj_projectile</object>
+    </objects>
+    <objects name="Lifeforms">
+      <object>objects\obj_lifeform_parent</object>
+      <object>objects\obj_player</object>
+      <object>objects\obj_enemy_slime</object>
+      <object>objects\obj_enemy_chinlin</object>
+    </objects>
+    <objects name="Other in game items">
+      <object>objects\obj_expr</object>
+      <object>objects\obj_health</object>
+    </objects>
+    <objects name="Room interaction">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_door</object>
+    </objects>
+    <objects name="Settings">
+      <object>objects\obj_view</object>
+      <object>objects\obj_player_stats</object>
+      <object>objects\obj_dash_effect</object>
+      <object>objects\obj_input</object>
+      <object>objects\obj_pause_menu</object>
+      <object>objects\obj_save_parent</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>

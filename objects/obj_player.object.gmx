@@ -38,7 +38,7 @@ xaxis = 0;
 yaxis = 0;
 dir = 0;
 len = 0;
-weapon = obj_sword;
+weapon_sprite = spr_sword;
 
 
 hp = 3;
