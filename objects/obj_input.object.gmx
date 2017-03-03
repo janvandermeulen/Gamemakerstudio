@@ -28,6 +28,11 @@
             <string>///initialise the input obj
 scr_get_input();
 
+
+
+xaxis_previous = 0;
+yaxis_previous = 0;
+
 </string>
           </argument>
         </arguments>
@@ -78,7 +83,10 @@ scr_get_input();
           <argument>
             <kind>1</kind>
             <string>///set the players persistance
+
 /*
+
+
 if(instance_exists(obj_player))
 {
     room.persistent = true;
@@ -86,7 +94,10 @@ if(instance_exists(obj_player))
 {
     room.persistent = false
 }
+
 */
+
+
 </string>
           </argument>
         </arguments>
